@@ -16,13 +16,15 @@ The following steps were taken to transform/clean up the data<br>
 
 3.Data sets (i), (ii) and (iii) from step 2 were column binded to give the complete data set.<br>
 
-4.The complete dataset from step 3 was joined with activity_labels data to give descriptive names to activities in the complete data set.<br> Before the join, activity data in the complete data set were numbers (id). <br>
+4.The complete dataset from step 3 was joined with activity_labels data to give descriptive<br> 
+names to activities in the complete data set. Before the join, activity data in the complete data set were numbers (id). <br>
 
-5.Only the measurement columns with standard deviation and mean (plus subject and activity columns) were selected to give a subset <br>
-of complete data set, which was denoted by dataSub.<br>
+5.Only the measurement columns with standard deviation and mean (plus subject and activity columns) <br>
+were selected to give a subset of complete data set, which was denoted by dataSub.<br>
 
-6.The column names of dataSub were cleaned up - i.e. removed parentheses, dashes, and the column names converted to lower case.<br>
+6.The column names of dataSub were cleaned up - i.e. removed parentheses, dashes, and the column names<br>
+converted to lower case.
 
-7.An independent tidy data set (submitted) with the average of each variable for each activity and each subject was created from dataSub,<br> 
-denoted by datAvg. datAvg is in a wide format (which should be acceptable as tidy as noted in the instructions). There are <br>
-180 (30 subjects x 6 activities) rows, each subject doing each of 6 activities.
+7.An independent tidy data set (submitted) with the average of each variable for each activity and each<br>
+ subject was created from dataSub, denoted by datAvg. datAvg is in a wide format (which should be acceptable<br> 
+ as tidy as noted in the instructions). There are 180 (30 subjects x 6 activities) rows, each subject doing each of 6 activities.
